@@ -1,0 +1,61 @@
+.navbar {
+  opacity: 1;
+  height: 4rem;
+  background-color: #333333;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 100vw;
+}
+* {
+  max-width: 100vw;
+}
+#hero-text {
+  background: url("images/New home.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #ffffff;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 50rem;
+  /* position: fixed; */
+}
+
+@media screen and (max-width: 768px) {
+  #hero-text {
+    object-fit: contain;
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+#about {
+  padding: 20px;
+}
+
+.icons h3 {
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+}
+
+.icons i {
+  /* background-color: #1e90ff; */
+  color: hsl(204, 86%, 36%);
+  padding: 0.1rem;
+  /* border-radius: 50%;
+  margin-bottom: 15px; */
+}
+
+.icons i:hover {
+  opacity: 0.7;
+}
+
+img-1 {
+  max-width: 100%;
+}
+
+.img {
+  max-width: 100%;
+  height: 40vh;
+  width: 100%;
+}
