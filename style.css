@@ -8,12 +8,12 @@ body {
   overflow-x: hidden;
 }
 #hero-text {
-  background: url("images/New home.jpg") no-repeat center center/cover;
+  background: url("images/New home.jpg") no-repeat cover;
   height: 100vh;
   position: relative;
   color: #ffffff;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   text-shadow: 0 0 5px #222;
 }
 #overlay {
