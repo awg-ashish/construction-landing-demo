@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 #hero-text {
-  background: url("images/New home.jpg") no-repeat cover;
+  background: url("images/New home.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #ffffff;
